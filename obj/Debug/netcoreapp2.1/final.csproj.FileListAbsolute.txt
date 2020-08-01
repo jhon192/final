@@ -1,0 +1,11 @@
+C:\Users\jjjho\OneDrive\Escritorio\final\bin\Debug\netcoreapp2.1\final.deps.json
+C:\Users\jjjho\OneDrive\Escritorio\final\bin\Debug\netcoreapp2.1\final.runtimeconfig.json
+C:\Users\jjjho\OneDrive\Escritorio\final\bin\Debug\netcoreapp2.1\final.runtimeconfig.dev.json
+C:\Users\jjjho\OneDrive\Escritorio\final\bin\Debug\netcoreapp2.1\final.dll
+C:\Users\jjjho\OneDrive\Escritorio\final\bin\Debug\netcoreapp2.1\final.pdb
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.csprojAssemblyReference.cache
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.csproj.CoreCompileInputs.cache
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.AssemblyInfoInputs.cache
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.AssemblyInfo.cs
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.dll
+C:\Users\jjjho\OneDrive\Escritorio\final\obj\Debug\netcoreapp2.1\final.pdb

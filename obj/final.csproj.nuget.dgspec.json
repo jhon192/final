@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jjjho\\OneDrive\\Escritorio\\final\\final.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jjjho\\OneDrive\\Escritorio\\final\\final.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jjjho\\OneDrive\\Escritorio\\final\\final.csproj",
+        "projectName": "final",
+        "projectPath": "C:\\Users\\jjjho\\OneDrive\\Escritorio\\final\\final.csproj",
+        "packagesPath": "C:\\Users\\jjjho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jjjho\\OneDrive\\Escritorio\\final\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jjjho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
