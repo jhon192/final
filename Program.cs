@@ -6,6 +6,7 @@ namespace final
     {
         static void Main(string[] args)
         {
+            //perdon fue un poco largo XD
             long username = 40234533160;
             long clave = 123456;
             string rol = "Supervisor";
