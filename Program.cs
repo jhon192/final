@@ -20,7 +20,7 @@ namespace final
             string estado2 = "inactivo";
             int acceso;
             Console.WriteLine("Que Accion usted desea tomar:? ");
-            Console.Write("\n 1- Iniciar sesion \n 2- ver registros de Activos o Inactivos \n >");
+            Console.Write("\n 1- Iniciar sesion \n 2- ver registros de Activos o Inactivos \n > ");
             acceso = Convert.ToInt32(Console.ReadLine());
             if (acceso == 1)
             {
@@ -41,7 +41,7 @@ namespace final
                     Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado2);
                 }
                 
-                else if (username == 40231233160 && clave == 987654)
+                else if (username == 40233213160 && clave == 987654)
                 {
                     Console.WriteLine("\nEstas dentro!");
                     Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -50,10 +50,9 @@ namespace final
                 else
                 {
                     while (username != 40234533160 && clave != 123456 || username != 40231233160 && clave != 654321
-                     || username != 40231233160 && clave != 987654)
+                     || username != 40233213160 && clave != 987654)
                     {
                         Console.WriteLine("\nError a ingresado un dato incorrecto");
-                        Console.WriteLine();
                         Console.Write("Ingrese su Usuario: ");
                         username = Convert.ToInt64(Console.ReadLine());
                         Console.Write("Ingrese su clave: ");
@@ -71,7 +70,7 @@ namespace final
                             Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado2);
                         }
                         
-                        else if (username == 40231233160 && clave == 987654)
+                        else if (username == 40233213160 && clave == 987654)
                         {
                             Console.WriteLine("\nEstas dentro!");
                             Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -117,7 +116,7 @@ namespace final
                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado1);
                     }
                     
-                    else if (username == 40231233160 && clave == 987654)
+                    else if (username == 40233213160 && clave == 987654)
                     {
                         Console.WriteLine("\nEstas dentro!");
                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -125,8 +124,8 @@ namespace final
 
                     else
                     {
-                        while (username != 40234533160 && clave != 123456 || username2 != 40231233160 &&
-                                clave2 != 654321 || username3 != 40231233160 && clave3 != 987654)
+                        while (username != 40234533160 && clave != 123456 || username != 40231233160 &&
+                                clave != 654321 || username != 40233213160 && clave != 987654)
                         {
                             Console.WriteLine("\nError a ingresado un dato incorrecto");
                             Console.WriteLine("Inicio de sesion");
@@ -140,12 +139,12 @@ namespace final
                                 Console.WriteLine("\nEstas dentro!");
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username, rol, estado1);                            }
 
-                            else if (username2 == 40231233160 && clave2 == 654321)
+                            else if (username == 40231233160 && clave == 654321)
                             {
                                 Console.WriteLine("\nEstas dentro!");
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado1);                            }
 
-                            else if (username3 == 40231233160 && clave3 == 987654)
+                            else if (username == 40233213160 && clave == 987654)
                             {
                                 Console.WriteLine("\nEstas dentro!");
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -193,7 +192,7 @@ namespace final
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado2);
                             }
                             
-                            else if (username == 40231233160 && clave == 987654)
+                            else if (username == 40233213160 && clave == 987654)
                             {
                                 Console.WriteLine("\nEstas dentro!");
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -201,8 +200,8 @@ namespace final
 
                             else
                             {
-                                while (username != 40234533160 && clave != 123456 || username2 != 40231233160 &&
-                                        clave2 != 654321 || username3 != 40231233160 && clave3 != 987654)
+                                while (username != 40234533160 && clave != 123456 || username != 40231233160 &&
+                                        clave != 654321 || username != 40233213160 && clave != 987654)
                                 {
                                     Console.WriteLine("\nError a ingresado un dato incorrecto");
                                     Console.WriteLine("Inicio de sesion");
@@ -215,12 +214,12 @@ namespace final
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username, rol, estado1);                            }
 
-                                    else if (username2 == 40231233160 && clave2 == 654321)
+                                    else if (username == 40231233160 && clave2 == 654321)
                                     {
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado1);                            }
 
-                                    else if (username3 == 40231233160 && clave3 == 987654)
+                                    else if (username == 40233213160 && clave3 == 987654)
                                     {
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -266,7 +265,7 @@ namespace final
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado1);
                             }
                             
-                            else if (username == 40231233160 && clave == 987654)
+                            else if (username == 40233213160 && clave == 987654)
                             {
                                 Console.WriteLine("\nEstas dentro!");
                                 Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
@@ -274,8 +273,8 @@ namespace final
 
                             else
                             {
-                                while (username != 40234533160 && clave != 123456 || username2 != 40231233160 &&
-                                        clave2 != 654321 || username3 != 40231233160 && clave3 != 987654)
+                                while (username != 40234533160 && clave != 123456 || username != 40231233160 &&
+                                        clave != 654321 || username != 40233213160 && clave != 987654)
                                 {
                                     Console.WriteLine("\nError a ingresado un dato incorrecto");
                                     Console.WriteLine("Inicio de sesion");
@@ -289,12 +288,12 @@ namespace final
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username, rol, estado1);                            }
 
-                                    else if (username2 == 40231233160 && clave2 == 654321)
+                                    else if (username == 40231233160 && clave2 == 654321)
                                     {
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username2, rol2, estado1);                            }
 
-                                    else if (username3 == 40231233160 && clave3 == 987654)
+                                    else if (username == 40233213160 && clave3 == 987654)
                                     {
                                         Console.WriteLine("\nEstas dentro!");
                                         Console.WriteLine("Acabas de ingresar como {0}, su rol es {1} y su Estado es {2}", username3, rol3, estado1);
